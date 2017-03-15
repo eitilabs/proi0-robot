@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1489615968 source:/home/data/programming/proi/PROI_0/main.cpp
+	<iostream>
+	"include/Robot.h"
+	"include/Map.h"
+
+1489615999 /home/data/programming/proi/PROI_0/include/Robot.h
+
+1489616374 /home/data/programming/proi/PROI_0/include/Map.h
+
+1489616305 source:/home/data/programming/proi/PROI_0/src/Map.cpp
+	<iostream>
+	"Map.h"
+
+1489616529 source:/home/data/programming/proi/PROI_0/src/Robot.cpp
+	<iostream>
+	"Robot.h"
+

@@ -39,9 +39,15 @@
 		</Unit>
 		<Unit filename="include/Map.h" />
 		<Unit filename="include/Robot.h" />
+		<Unit filename="include/RobotDrive.h" />
+		<Unit filename="include/RobotRotation.h" />
+		<Unit filename="include/RobotWeapons.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Map.cpp" />
 		<Unit filename="src/Robot.cpp" />
+		<Unit filename="src/RobotDrive.cpp" />
+		<Unit filename="src/RobotRotation.cpp" />
+		<Unit filename="src/RobotWeapons.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />

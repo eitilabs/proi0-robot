@@ -1,25 +1,52 @@
+#define _DEBUG
+
 #include <iostream>
 #include "include/Robot.h"
 #include "include/Map.h"
+#include "include/RobotDrive.h"
+#include "include/RobotWeapons.h"
 
 using namespace std;
 
 int main()
 {
 
+/*
+
+    Program symuluje prostego robota wojskowego ktory porusza sie wzdluz jednej osi, moze obracac sie i strzelac
+
+    Uzytkownik zadaje cel w postaci wspolrzednych x, y
+
+*/
+
     cout << "Hello world!" << endl;
 
-    Map mapInstance;
+    int Robot::instances[4] = { 0, 0, 0, 0};
 
-    mapInstance.setSize(500, 500);
+    Robot* robot1 = new Robot();
 
-    cout << mapInstance.getSizeX() << " " << mapInstance.getSizeY() << endl;
+    //robot1->shootTarget(50, 55);
 
-    Robot robot1;
+    int x, y;
 
-    robot1.walk(200);
+    while (1) {
 
-    cout << "The robot position is (" << robot1.getPositionX() << ", " << robot1.getPositionY() << ")" << endl;
+        cout << "Enter target coordinates. (Negative to exit)";
+
+        cin >> x;
+
+        if (x < 0)
+            break;
+
+        cin >> y;
+
+        robot1->shootTarget(x, y);
+
+
+    }
+
+    delete robot1;
+
 
     return 0;
 

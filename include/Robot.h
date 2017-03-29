@@ -1,6 +1,9 @@
 #ifndef ROBOT_H
 #define ROBOT_H
 
+#include "RobotDrive.h"
+#include "RobotWeapons.h"
+#include "RobotRotation.h"
 
 class Robot
 {
@@ -11,7 +14,8 @@ class Robot
         void walk(double distance);
         double getPositionX();
         double getPositionY();
-
+        int shootTarget(int, int);
+        static int instances[];
 
     protected:
 
@@ -19,6 +23,9 @@ class Robot
         double angle;
         double positionX;
         double positionY;
+        RobotDrive drive;
+        RobotWeapons weapons;
+        RobotRotation rotation;
 };
 
 #endif // ROBOT_H

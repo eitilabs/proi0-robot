@@ -16,3 +16,53 @@
 	<iostream>
 	"Robot.h"
 
+1490823549 source:/home/data/programming/proi/PROI_1/main.cpp
+	<iostream>
+	"include/Robot.h"
+	"include/Map.h"
+	"include/RobotDrive.h"
+	"include/RobotWeapons.h"
+
+1490824276 /home/data/programming/proi/PROI_1/include/Robot.h
+	"RobotDrive.h"
+	"RobotWeapons.h"
+	"RobotRotation.h"
+
+1489616374 /home/data/programming/proi/PROI_1/include/Map.h
+
+1490730267 /home/data/programming/proi/PROI_1/include/RobotDrive.h
+
+1489617726 source:/home/data/programming/proi/PROI_1/src/Map.cpp
+	<iostream>
+	"../include/Map.h"
+
+1490823921 source:/home/data/programming/proi/PROI_1/src/Robot.cpp
+	<iostream>
+	<cmath>
+	"../include/RobotDrive.h"
+	"../include/RobotRotation.h"
+	"../include/RobotWeapons.h"
+	"../include/Robot.h"
+	"../defines.h"
+
+1490822537 source:/home/data/programming/proi/PROI_1/src/RobotDrive.cpp
+	<iostream>
+	"../include/RobotDrive.h"
+	"../defines.h"
+
+1490730862 /home/data/programming/proi/PROI_1/include/RobotWeapons.h
+
+1490823020 source:/home/data/programming/proi/PROI_1/src/RobotWeapons.cpp
+	<iostream>
+	"../include/RobotWeapons.h"
+	"../defines.h"
+
+1490812678 /home/data/programming/proi/PROI_1/include/RobotRotation.h
+
+1490817642 source:/home/data/programming/proi/PROI_1/src/RobotRotation.cpp
+	<iostream>
+	"../include/RobotRotation.h"
+	"../defines.h"
+
+1490817354 /home/data/programming/proi/PROI_1/defines.h
+

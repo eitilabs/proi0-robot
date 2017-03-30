@@ -16,7 +16,8 @@ Robot::Robot()
     std::cout << "New robot instance" << std::endl;
     #endif // _DEBUG
 
-    instances[0]++;
+  //  instances[0]++;
+  totalInstances++;
 
 }
 

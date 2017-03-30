@@ -66,3 +66,53 @@
 
 1490817354 /home/data/programming/proi/PROI_1/defines.h
 
+1490870094 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/src/Map.cpp
+	<iostream>
+	"../include/Map.h"
+
+1490870094 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/include/Map.h
+
+1490871632 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/src/Robot.cpp
+	<iostream>
+	<cmath>
+	"../include/RobotDrive.h"
+	"../include/RobotRotation.h"
+	"../include/RobotWeapons.h"
+	"../include/Robot.h"
+	"../defines.h"
+
+1490870094 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/include/RobotDrive.h
+
+1490870094 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/include/RobotRotation.h
+
+1490870094 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/include/RobotWeapons.h
+
+1490871605 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/include/Robot.h
+	"RobotDrive.h"
+	"RobotWeapons.h"
+	"RobotRotation.h"
+
+1490870094 /home/mion/s/181/mkrawcz2/Desktop/proi1-robot/defines.h
+
+1490870094 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/src/RobotDrive.cpp
+	<iostream>
+	"../include/RobotDrive.h"
+	"../defines.h"
+
+1490870094 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/src/RobotRotation.cpp
+	<iostream>
+	"../include/RobotRotation.h"
+	"../defines.h"
+
+1490871188 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/src/RobotWeapons.cpp
+	<iostream>
+	"../include/RobotWeapons.h"
+	"../defines.h"
+
+1490871957 source:/home/mion/s/181/mkrawcz2/Desktop/proi1-robot/main.cpp
+	<iostream>
+	"include/Robot.h"
+	"include/Map.h"
+	"include/RobotDrive.h"
+	"include/RobotWeapons.h"
+

@@ -15,7 +15,7 @@ class Robot
         double getPositionX();
         double getPositionY();
         int shootTarget(int, int);
-        static int instances[];
+        static int totalInstances;
 
     protected:
 

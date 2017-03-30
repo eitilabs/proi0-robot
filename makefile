@@ -6,4 +6,4 @@
 #	cc -c main.cpp src/Robot.cpp src/Map.cpp -o build/main.o
 
 all: main.cpp
-	gcc -lstdc++ main.cpp src/Robot.cpp src/Map.cpp
+	gcc -lstdc++ main.cpp src/Robot.cpp src/RobotDrive.cpp src/RobotWeapons.cpp src/RobotRotation.cpp

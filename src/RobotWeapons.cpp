@@ -18,7 +18,7 @@ RobotWeapons::~RobotWeapons()
 {
     //dtor
     #ifdef _DEBUG
-    std::cout << "New RobotWeapons instance" << std::endl;
+    std::cout << "Destroying RobotWeapons instance" << std::endl;
     #endif // _DEBUG
 }
 

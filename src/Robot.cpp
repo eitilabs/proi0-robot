@@ -76,7 +76,14 @@ int Robot::shootTarget(int x, int y) {
 
         rotation.setAngle(rotationAngle);
 
-        weapons.shoot();
+        if (weapons.shoot() == -1) {
+
+            weapons += 1;
+            weapons.shoot();
+
+        }
+
+
 
 
     }

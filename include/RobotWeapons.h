@@ -9,6 +9,7 @@ class RobotWeapons
         virtual ~RobotWeapons();
         int shoot();
         int getRoundsCount();
+        int operator +=( const int & );
 
     protected:
 

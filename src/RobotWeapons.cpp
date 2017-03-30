@@ -12,6 +12,16 @@ RobotWeapons::RobotWeapons()
 
     rounds = 10;
 
+
+
+}
+
+int RobotWeapons::operator +=( const int & a) {
+
+    rounds += a;
+
+    return rounds;
+
 }
 
 RobotWeapons::~RobotWeapons()
@@ -36,6 +46,8 @@ int RobotWeapons::shoot() {
     else {
 
         std::cout << "Out of ammo" << std::endl;
+
+        return -1;
 
     }
 
